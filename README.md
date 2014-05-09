@@ -1,12 +1,16 @@
-# Watir::Screenshot
+# watir-extensions-element-screenshot
 
-TODO: Write a gem description
+Extend [Watir](https://github.com/watir/watir-webdriver/) to add screenshot support to any element.
+
+## Example
+
+	.. include:: examples/example.rb
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'watir-screenshot'
+    gem 'watir-extensions-element-screenshot'
 
 And then execute:
 
@@ -14,16 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install watir-screenshot
+    $ gem install watir-extensions-element-screenshot
 
-## Usage
 
-TODO: Write usage instructions here
 
-## Contributing
-
-1. Fork it ( http://github.com/<my-github-username>/watir-screenshot/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
