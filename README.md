@@ -13,7 +13,7 @@ b.goto 'https://github.com/ansoni/watir-extensions-element-screenshot'
 b.div(:id => "readme").screenshot("readme.png")
 ```
 
-![Image](./examples/readme.png?raw=true)
+![readme capture](./examples/readme.png?raw=true)
 
 ## Installation
 
