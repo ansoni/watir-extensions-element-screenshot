@@ -2,6 +2,8 @@
 
 Extend [Watir](https://github.com/watir/watir-webdriver/) to add screenshot support to any element.
 
+[![Gem Version](https://badge.fury.io/rb/watir-extensions-element-screenshot.svg)](https://badge.fury.io/rb/watir-extensions-element-screenshot)
+
 ## Example
 
 ```
