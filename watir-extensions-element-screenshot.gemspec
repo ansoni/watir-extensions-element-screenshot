@@ -6,9 +6,9 @@ require 'watir/extensions/element/screenshot/version'
 Gem::Specification.new do |spec|
   spec.name          = "watir-extensions-element-screenshot"
   spec.version       = Watir::Extensions::Element::Screenshot::VERSION
-  spec.authors       = ["Anthony Johnson"]
-  spec.email         = ["ansoni@gmail.com"]
-  spec.summary       = %q{Extend Watir to be able to screenshot any element}
+  spec.authors       = ["Anthony Johnson","Edmundo Sanchez"]
+  spec.email         = ["ansoni@gmail.com","mundo@ultraviolento.com"]
+  spec.summary       = %q{Extend Watir 6.2.0 to be able to screenshot any element}
   spec.homepage      = ""
   spec.license       = "Apache"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
   spec.add_runtime_dependency "chunky_png"
-  spec.add_runtime_dependency "watir-webdriver"
+  spec.add_runtime_dependency "watir"
 end
