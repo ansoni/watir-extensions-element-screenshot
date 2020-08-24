@@ -8,7 +8,7 @@ module Watir
       begin
         browser.screenshot.save(file)
         image = ChunkyPNG::Image.from_file(file)
-        image.crop!(wd.location.x.to_i + 1, wd.location.y.to_i + 1, wd.size.width, wd.size.height)
+        image.crop!(wd.location.x.to_i + 1, wd.location.y.to_i + 1, wd.size.width.to_i, wd.size.height.to_i)
         image.save(dest)
       ensure 
         file.unlink 
